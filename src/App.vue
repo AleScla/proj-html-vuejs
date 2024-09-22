@@ -1,27 +1,18 @@
 <script>
-/* 
-  Per importare ed utilizzare un componente dentro un altro devo SEMPRE seguire questi 3 passi:
-  1) Importazione del componente
-  2) Dichiarazione del componente
-  3) Utilizzo del componente
-*/
-// 1) Importazione del componente
+import {store} from './store.js';
 import AppHeader from './components/AppHeader.vue';
 
 export default {
   data() {
     return { 
-      count: 0
+      store
     }
   },
-  // 2) Dichiarazione del componente
   components: {
     AppHeader
   },
   methods: {
-    incrementCount() {
-      this.count++;
-    }
+
   }
 }
 </script>
@@ -30,11 +21,8 @@ export default {
   <div>
     <!-- 3) Utilizzo del componente -->
     <AppHeader />
-    
     <main>
-      <button class="btn btn-primary" @click="incrementCount()">
-        {{ count }}
-      </button>
+
     </main>
   </div>
 </template>

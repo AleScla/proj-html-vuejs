@@ -1,19 +1,13 @@
 /* 
     GENERAL
 */
+body{
+    font-family: "Open Sans", sans-serif !important;
+}
 .container {
     max-width: 1000px;
     margin: 0 auto;
 }
-
-.my-row {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 /* 
     APP
 */
-main {
-  text-align: center;
-}
