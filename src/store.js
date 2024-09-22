@@ -29,8 +29,8 @@ export const store = reactive ({
                 'Standard List',
                 'Course Single',
                 'User dashboard',
-
-            ]
+            ],
+            
         },
         {
             placeholder: 'INSTRUCTORS',
@@ -95,17 +95,64 @@ export const store = reactive ({
         {
             placeholder: 'ELEMENTS',
             dropdowns: [
-                'About',
-                'Gallery',
-                'Pricing Plan',
-                'Blog',
-                'Shop',
-                'Forums',
-                'Contact',
-                'FAQ',
-                'Coming Soon',
-                'Error Page'
+                {
+                 title: 'COURSE SHORTCODES',
+                 links:[
+                    'Course List',
+                    'Course Slider',
+                    'Course Table',
+                    'Course Features',
+                    'Instructor List',
+                    'Instructor Slider',
+                    'Education Timeline',
+                    'Advanced Course Search',
+                    'Linked Image List'
+                 ]   
+                },
+                {
+                    title: 'CLASSIC',
+                    links:[
+                        'Accordions & Toggles',
+                        'Tabs',
+                        'Buttons',
+                        'Call To Action',
+                        'Contact Form',
+                        'Separators',
+                        'Icon With Text',
+                        'Blockquote',
+                        'Typography'
+                    ]
+                },
+                {
+                    title: 'INFOGRAPHIC',
+                    links:[
+                        'Counters',
+                        'Countdown',
+                        'Pie Charts',
+                        'Google Maps',
+                        'Process',
+                        'Progress Bar',
+                        'Event List',
+                        'Pricing Tables',
+                        'Comparison Pricing Tables'
+                    ]
+                },
+                {
+                    title: 'PRESENTATION',
+                    links:[
+                        'Team Shortcode',
+                        'Testimonials',
+                        'Clients',
+                        'Blog List Shortcode',
+                        'Twitter List',
+                        'Product List',
+                        'Image Gallery',
+                        'Masonry Gallery',
+                        'Video Button'
+                    ]
+                },
             ]
+            
         },
         
     ]
