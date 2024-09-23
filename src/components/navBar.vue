@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template>
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg mt-4">
           <div class="col-3 text-start">
             <a class="navbar-brand" href="#">
               <img id="logo" src="/img/logo-light.png" alt="iAcademy-logo">
