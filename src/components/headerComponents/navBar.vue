@@ -1,5 +1,5 @@
 <script>
-import {store} from '../store.js';
+import {store} from '../../store.js';
 export default {
   data() {
     return { 
@@ -150,7 +150,7 @@ export default {
 
 
 <style lang="scss" scoped>
-@use '../assets/scss/partials/variables.scss' as *;
+
 
 .navbar{
   position:absolute;
@@ -244,9 +244,4 @@ a{
 .nav-item > a{
     color:white;
 }
-
-
-        
-    
-
 </style>

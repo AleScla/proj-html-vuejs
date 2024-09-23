@@ -1,5 +1,6 @@
 import {reactive} from 'vue';
 
+
 export const store = reactive ({
     // header
     navbar:[
@@ -203,6 +204,27 @@ export const store = reactive ({
         {
             img:'img/h5-custom-icon-6.png',
             text: 'DIY&Craft'
+        },
+    ],
+    // carosello testimonials
+    activeTestimonial: 0,
+    testimCarousel:[
+        {   img:'/img/testimonials-standard-6.png',
+            phrase: 'Lorem Ipsn gravida nibh vel velit acutor aliquetnean sollicitudin, lorem quis bibendum auci elit consequat Ipsutis sem nibh id elited odio sit amet nibcursus a sit amet mauris',
+            subject: 'Molly Simons',
+            role: 'TEACHER'
+        },
+        {
+            img:'/img/testimonials-standard-2.png',
+            phrase: 'Lorem Ipsn gravida nibh vel velit acutor aliquetnean sollicitudin, lorem quis bibendum auci elit consequat Ipsutis sem nibh id elited odio sit amet nibcursus a sit amet mauris',
+            subject: 'Joan Collins',
+            role: 'STUDENT'
+        },
+        {
+            img:'/img/testimonials-standard-1.png',
+            phrase: 'Lorem Ipsn gravida nibh vel velit acutor aliquetnean sollicitudin, lorem quis bibendum auci elit consequat Ipsutis sem nibh id elited odio sit amet nibcursus a sit amet mauris',
+            subject: 'Virginia Foster',
+            role: 'STUDENT'
         },
     ]
 })

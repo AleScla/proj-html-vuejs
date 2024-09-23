@@ -1,5 +1,5 @@
 <script>
-import {store} from '../store.js';
+import {store} from '../../store.js';
 export default {
   data() {
     return { 
@@ -40,7 +40,7 @@ export default {
 
 
 <style lang="scss" scoped>
-@use '../assets/scss/partials/variables.scss' as *;
+@use '/src/assets/scss/partials/variables.scss' as *;
 .jumbotron{
   width:100%;
   height:80vh;

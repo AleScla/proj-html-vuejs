@@ -1,5 +1,5 @@
 <script>
-import {store} from '../store.js';
+import {store} from '../../store.js';
 
 export default {
   data() {
@@ -23,11 +23,11 @@ export default {
             </div>
           </div>
         </div>
-      </section>
+  </section>
 </template>
 
 <style lang="scss" scoped>
-@use '../assets/scss/partials/variables' as *;
+@use '/src/assets/scss/partials/variables.scss' as *;
 .box-info{
   background-color:#F2F8FC;
   padding: 40px 0;

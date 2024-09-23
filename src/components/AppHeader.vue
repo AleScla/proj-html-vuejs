@@ -1,7 +1,7 @@
 <script>
 import {store} from '../store.js';
-import navBar from './navBar.vue'
-import jumbotron from './jumbotron.vue';
+import navBar from './headerComponents/navBar.vue'
+import jumbotron from './headerComponents/jumbotron.vue';
 export default {
   data() {
     return { 
