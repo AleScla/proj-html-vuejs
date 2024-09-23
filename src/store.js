@@ -155,5 +155,24 @@ export const store = reactive ({
             
         },
         
-    ]
+    ],
+    active:0,
+    carousel:[
+        {
+            img:'/public/img/h5-slide-3-background.jpg',
+            title: 'Contemporary Ideas',
+            phrase: 'Lorem Ipsn gravida nibh vel velit acutor aliquetnean sollicitudin, lorem quis bibendum auci elit consequat Ipsutis sem nibh id elited odio sit amet nibcursus a sit amet mauris',
+        },
+        {
+            img:'/public/img/h5-slide-1-background.jpg',
+            title: 'Accelerate Your Career',
+            phrase: 'Lorem Ipsn gravida nibh vel velit acutor aliquetnean sollicitudin, lorem quis bibendum auci elit consequat Ipsutis sem nibh id elited odio sit amet nibcursus a sit amet mauris',
+        },
+        {
+            img:'/public/img/h5-slide-2-background.jpg',
+            title: 'Premium Education',
+            phrase: 'Lorem Ipsn gravida nibh vel velit acutor aliquetnean sollicitudin, lorem quis bibendum auci elit consequat Ipsutis sem nibh id elited odio sit amet nibcursus a sit amet mauris',
+        },
+
+    ]   
 })
