@@ -13,7 +13,7 @@ export default {
     <nav class="navbar navbar-expand-lg">
           <div class="col-3 text-start">
             <a class="navbar-brand" href="#">
-              <img id="logo" src="/public/img/logo-light.png" alt="iAcademy-logo">
+              <img id="logo" src="/img/logo-light.png" alt="iAcademy-logo">
             </a>
           </div>
          
@@ -84,7 +84,7 @@ export default {
                     <ul class="border-left my-ul ">
                       <li class="px-3 pb-2"><strong>BUSINESS</strong></li>
                       <li class="px-3 pb-2">
-                        <img  src="/public/img/course-4-f-img.jpg" >
+                        <img  src="/img/course-4-f-img.jpg" >
                       </li>
                       <li class="d-flex justify-content-end me-2">
                         <button type="button" class="my-btn">40 €</button>
@@ -93,7 +93,7 @@ export default {
                     <ul class="my-ul">
                       <li class="px-3 pb-2"><strong>LANGUAGES</strong></li>
                       <li class="px-3 pb-2">
-                        <img  src="/public/img/course-1-f-img.jpg" >
+                        <img  src="/img/course-1-f-img.jpg" >
                       </li>
                       <li class="d-flex justify-content-end me-2">
                         <button type="button" class="my-btn">20 €</button>
@@ -102,7 +102,7 @@ export default {
                     <ul class="my-ul">
                       <li class="px-3 pb-2"><strong>PROGRAMMING</strong></li>
                       <li class="px-3 pb-2">
-                        <img  src="/public/img/course-2-f-img.jpg" >
+                        <img  src="/img/course-2-f-img.jpg" >
                       </li>
                       <li class="d-flex justify-content-end me-2">
                         <button type="button" class="my-btn yellow">FREE</button>

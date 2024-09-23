@@ -1,6 +1,7 @@
 import {reactive} from 'vue';
 
 export const store = reactive ({
+    // header
     navbar:[
         {
             placeholder: 'HOME',
@@ -156,23 +157,52 @@ export const store = reactive ({
         },
         
     ],
+    // carosello jumbotron
     active:0,
     carousel:[
         {
-            img:'/public/img/h5-slide-3-background.jpg',
+            img:'/img/h5-slide-3-background.jpg',
             title: 'Contemporary Ideas',
             phrase: 'Lorem Ipsn gravida nibh vel velit acutor aliquetnean sollicitudin, lorem quis bibendum auci elit consequat Ipsutis sem nibh id elited odio sit amet nibcursus a sit amet mauris',
         },
         {
-            img:'/public/img/h5-slide-1-background.jpg',
+            img:'/img/h5-slide-1-background.jpg',
             title: 'Accelerate Your Career',
             phrase: 'Lorem Ipsn gravida nibh vel velit acutor aliquetnean sollicitudin, lorem quis bibendum auci elit consequat Ipsutis sem nibh id elited odio sit amet nibcursus a sit amet mauris',
         },
         {
-            img:'/public/img/h5-slide-2-background.jpg',
+            img:'/img/h5-slide-2-background.jpg',
             title: 'Premium Education',
             phrase: 'Lorem Ipsn gravida nibh vel velit acutor aliquetnean sollicitudin, lorem quis bibendum auci elit consequat Ipsutis sem nibh id elited odio sit amet nibcursus a sit amet mauris',
         },
+    ],   
 
-    ]   
+    // main
+    // sezione box competenze acquisibili
+    boxes:[
+        {
+            img:'img/h5-custom-icon-1.png',
+            text: 'Languages'
+        },
+        {
+            img:'img/h5-custom-icon-2.png',
+            text: 'Software'
+        },
+        {
+            img:'img/h5-custom-icon-3.png',
+            text: 'Business'
+        },
+        {
+            img:'img/h5-custom-icon-4.png',
+            text: 'Chemistry'
+        },
+        {
+            img:'img/h5-custom-icon-5.png',
+            text: 'Science'
+        },
+        {
+            img:'img/h5-custom-icon-6.png',
+            text: 'DIY&Craft'
+        },
+    ]
 })
