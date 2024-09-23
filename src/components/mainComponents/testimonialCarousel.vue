@@ -12,8 +12,8 @@ export default {
 </script>
 
 <template>
-  <section id="testimonials-carousel" class="py-5">
-    <div class="container">
+  <section id="testimonial-carousel">
+    <div class="container text-white">
           <div class="slider-wrapper" >
               <template v-for="slide, slideIndex in store.testimCarousel">
                   <div class="carouselItem" :class="slideIndex != store.activeTestimonial ? 'd-none' : ''">
@@ -45,34 +45,16 @@ export default {
 
 <style lang="scss" scoped>
 @use '/src/assets/scss/partials/variables.scss' as *;
+
+
  #testimonial-carousel{
-  height:20vh;
+  height:500px;
   width:100%;
-  .slider-wrapper{
-   width:100%;
-   height:100%;
-   position:relative;
-   .carouselItem{
-    height:100%;
-    position:relative;
-    width:100%;
-      .carousel-text {
-        position:absolute;
-        color:white;
-        top:50%;
-        left:50%;
-        transform:translate(-50%, -50%);
-        text-align:center;
-          h1{
-            font-size:5rem;
-          }
-          p{
-            font-size:1.7rem;
-          }
-      }
-   }
-  }
-  
+  padding: 100px;
+  max-width:95vw;
+  margin:0 auto;
+  background-image:url(/public/img/h5-parallax-img-1.png);
+  background-attachment: local;
 }
 .activebtn{
   width:15px;

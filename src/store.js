@@ -226,5 +226,109 @@ export const store = reactive ({
             subject: 'Virginia Foster',
             role: 'STUDENT'
         },
-    ]
+    ],
+    // sezione more info
+    thumbs:[
+        {
+            thumbTitle: 'What we do',
+            thumbText: [
+                {
+                    hdr: 'Learning Possibilities',
+                    text: 'Lorem ipsum gravida nibh vel velit auctor aliquetn sollicitudirem quibibendum auci elit cons equat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt',
+                    list:[
+                        'We enrich live through learning',
+                        'Maximizing potential through individual attention.',
+                        'The trusted name for specialized training.',
+                        'People teach. People learn. This is where they connect.'
+                    ],
+                    
+                }
+            ],
+            img:'/img/h12-tabs-icon-1.png'
+        },
+        
+        {
+            thumbTitle: 'Degree Programme',
+            thumbText: [
+                {
+                    hdr: 'Inspiring Minds',
+                    text: 'Lorem ipsum gravida nibh vel velit auctor aliquetn sollicitudirem quibibendum auci elit cons equat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt',
+                    list:[
+                        
+                        'Maximizing potential through individual attention.',
+                        'We enrich live through learning',
+                        'People teach. People learn. This is where they connect.',
+                        'The trusted name for specialized training.' 
+                    ]
+                }
+            ],
+            img:'/img/h12-tabs-icon-2.png'
+        },
+        {
+            thumbTitle: 'Career Achievements',
+            thumbText: [
+                {
+                    hdr: 'Investing in Knowledge',
+                    text: 'Lorem ipsum gravida nibh vel velit auctor aliquetn sollicitudirem quibibendum auci elit cons equat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt',
+                    list:[
+                        'We enrich live through learning',
+                        'Maximizing potential through individual attention.',
+                        'The trusted name for specialized training.',
+                        'People teach. People learn. This is where they connect.'
+                    ]
+                }
+            ],
+            img:'/img/h12-tabs-icon-3.png'
+        },
+        {
+            thumbTitle: 'Personal Management',
+            thumbText: [
+                {
+                    hdr: 'Secure Your Future',
+                    text: 'Lorem ipsum gravida nibh vel velit auctor aliquetn sollicitudirem quibibendum auci elit cons equat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt',
+                    list:[
+                        
+                        'Maximizing potential through individual attention.',
+                        'We enrich live through learning',
+                        'People teach. People learn. This is where they connect.',
+                        'The trusted name for specialized training.'
+                    ]
+                }
+            ],
+            img:'/img/h12-tabs-icon-4.png',
+        },
+        {
+            thumbTitle: 'Step to Success',
+            thumbText: [
+                {
+                    hdr: 'Where Learning Begins',
+                    text: 'Lorem ipsum gravida nibh vel velit auctor aliquetn sollicitudirem quibibendum auci elit cons equat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt',
+                    list:[
+                        'We enrich live through learning',
+                        'Maximizing potential through individual attention.',
+                        'The trusted name for specialized training.',
+                        'People teach. People learn. This is where they connect.',
+                    ]
+                }
+            ],
+            img:'/img/h12-tabs-icon-5.png'
+        },
+        {
+            thumbTitle: 'Knowledge Transfer',
+            thumbText: [
+                {
+                    hdr: 'Knowledge is Power',
+                    text: 'Lorem ipsum gravida nibh vel velit auctor aliquetn sollicitudirem quibibendum auci elit cons equat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt',
+                    list:[
+                        'Maximizing potential through individual attention.',
+                        'We enrich live through learning',
+                        'People teach. People learn. This is where they connect.',
+                        'The trusted name for specialized training.',
+                    ]
+                }
+            ],
+            img:'/img/h12-tabs-icon-6.png'
+        },
+    ],
+    thumbsActive: 0,
 })

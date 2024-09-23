@@ -3,6 +3,7 @@ import {store} from '../store.js';
 import boxSection from './mainComponents/boxSection.vue';
 import homeTutoringSection from './mainComponents/homeTutoringSection.vue';
 import testimonialCarousel from './mainComponents/testimonialCarousel.vue';
+import MoreInfoSection from './mainComponents/MoreInfoSection.vue';
 
 
 export default {
@@ -14,7 +15,8 @@ export default {
   components: {
     boxSection,
     homeTutoringSection,
-    testimonialCarousel
+    testimonialCarousel,
+    MoreInfoSection
   },
 
 }
@@ -26,6 +28,7 @@ export default {
       <boxSection/>
       <homeTutoringSection/>
       <testimonialCarousel/>
+      <MoreInfoSection/>
     </main>
 
 </template>
