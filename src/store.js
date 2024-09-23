@@ -246,7 +246,6 @@ export const store = reactive ({
             ],
             img:'/img/h12-tabs-icon-1.png'
         },
-        
         {
             thumbTitle: 'Degree Programme',
             thumbText: [
