@@ -5,7 +5,7 @@ import homeTutoringSection from './mainComponents/homeTutoringSection.vue';
 import testimonialCarousel from './mainComponents/testimonialCarousel.vue';
 import MoreInfoSection from './mainComponents/MoreInfoSection.vue';
 import onlineCourses from './mainComponents/onlineCoursesSection.vue';
-
+import sectionBestTutors from './mainComponents/sectionBestTutors.vue';
 
 export default {
   data() {
@@ -19,6 +19,7 @@ export default {
     testimonialCarousel,
     MoreInfoSection,
     onlineCourses,
+    sectionBestTutors
   },
 
 }
@@ -32,6 +33,7 @@ export default {
       <testimonialCarousel/>
       <MoreInfoSection/>
       <onlineCourses/>
+      <sectionBestTutors/>
     </main>
 
 </template>

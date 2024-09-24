@@ -405,5 +405,26 @@ export const store = reactive ({
             price: '$ 40',
             img: '/img/course-9-f-img.jpg'
         },
+    ],
+    // sezione best tutors
+    bestTutors:[
+        {
+            img:'/img/h5-team-member-1.jpg',
+            subject: 'Brenda Harris',
+            role: 'TEACHER',
+            text:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et blanditiis praesentium cupiditate eaqua.',
+        },
+        {
+            img:'/img/h5-team-member-2.jpg',
+            subject: 'Lisa Griffin',
+            role: 'TEACHER',
+            text:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et blanditiis praesentium cupiditate eaqua.',
+        },
+        {
+            img:'/img/h5-team-member-3.jpg',
+            subject: 'Victor Green',
+            role: 'TEACHER',
+            text:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et blanditiis praesentium cupiditate eaqua.',
+        },
     ]
 })
