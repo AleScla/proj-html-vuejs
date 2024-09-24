@@ -6,7 +6,7 @@ import testimonialCarousel from './mainComponents/testimonialCarousel.vue';
 import MoreInfoSection from './mainComponents/MoreInfoSection.vue';
 import onlineCourses from './mainComponents/onlineCoursesSection.vue';
 import sectionBestTutors from './mainComponents/sectionBestTutors.vue';
-
+import pricingPlansSection from './mainComponents/pricingPlansSection.vue'
 export default {
   data() {
     return { 
@@ -19,14 +19,14 @@ export default {
     testimonialCarousel,
     MoreInfoSection,
     onlineCourses,
-    sectionBestTutors
+    sectionBestTutors,
+    pricingPlansSection
   },
 
 }
 </script>
 
 <template>
-
     <main>
       <boxSection/>
       <homeTutoringSection/>
@@ -34,8 +34,8 @@ export default {
       <MoreInfoSection/>
       <onlineCourses/>
       <sectionBestTutors/>
+      <pricingPlansSection/>
     </main>
-
 </template>
 
 <style lang="scss">

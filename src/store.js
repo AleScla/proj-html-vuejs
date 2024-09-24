@@ -426,5 +426,57 @@ export const store = reactive ({
             role: 'TEACHER',
             text:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et blanditiis praesentium cupiditate eaqua.',
         },
+    ],
+    // table pricing
+    tableRows:[
+        {
+            tdOne:'Number of Courses',
+            tdTwo:'2',
+            tdThree:'4',
+            tdFour:'6'
+        },
+        {
+            tdOne:'Time',
+            tdTwo:'15 Days',
+            tdThree:'30 Days',
+            tdFour:'30 Days'
+        },
+        {
+            tdOne:'Web Designing',
+            tdTwo:'included',
+            tdThree:'included',
+            tdFour:'included'
+        },
+        {
+            tdOne:'Human-Centered Design',
+            tdTwo:'included',
+            tdThree:'included',
+            tdFour:'included'
+        },
+        {
+            tdOne:'Basic Marketing',
+            tdTwo:'not-included',
+            tdThree:'included',
+            tdFour:'included'
+        },
+        {
+            tdOne:'Python for Everybody',
+            tdTwo:'not-included',
+            tdThree:'included',
+            tdFour:'included'
+        },
+        {
+            tdOne:'Android Developer',
+            tdTwo:'not-included',
+            tdThree:'not-included',
+            tdFour:'included'
+        },
+        {
+            tdOne:'Business English',
+            tdTwo:'not-included',
+            tdThree:'not-included',
+            tdFour:'included'
+        },
+        
     ]
 })
