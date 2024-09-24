@@ -337,63 +337,73 @@ export const store = reactive ({
             subject: 'Preston Marshall',
             text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia esse velit sint hic. Fuga, illum quasi!',
             tag: 'LANGUAGES',
-            price: '$ 20'
+            price: '$ 20',
+            img: '/img/course-1-f-img.jpg'
         },
         {
             title: 'Social Computing',
             subject: 'David Sanders',
             text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia esse velit sint hic. Fuga, illum quasi!',
             tag: 'PROGRAMMING',
-            price: 'FREE'
+            price: 'FREE',
+            img: '/img/course-2-f-img.jpg'
         },
         {
             title: 'Learn Spanish',
             subject: 'Jennie King',
             text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia esse velit sint hic. Fuga, illum quasi!',
             tag: 'LANGUAGES',
-            price: '$ 20'
+            price: '$ 20',
+            img: '/img/course-3-f-img.jpg'
+            
         },
         {
             title: 'Basic Marketing',
             subject: 'Edward Bowman',
             text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia esse velit sint hic. Fuga, illum quasi!',
             tag: 'BUSINESS',
-            price: '$ 40'
+            price: '$ 40',
+            img: '/img/course-4-f-img.jpg'
         },
         {
             title: 'Android Developer',
             subject: 'David Sanders',
             text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia esse velit sint hic. Fuga, illum quasi!',
             tag: 'PROGRAMMING',
-            price: 'FREE'
+            price: 'FREE',
+            img: '/img/course-5-f-img.jpg'
         },
         {
             title: 'Web Designing',
             subject: 'Jennifer Powell',
             text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia esse velit sint hic. Fuga, illum quasi!',
             tag: 'PROGRAMMING',
-            price: 'FREE'
+            price: 'FREE',
+            img: '/img/course-6-f-img.jpg'
         },
         {
             title: 'Financial Modeling',
             subject: 'Edward Bowman',
             text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia esse velit sint hic. Fuga, illum quasi!',
             tag: 'BUSINESS',
-            price: '$ 20'
+            price: '$ 20',
+            img: '/img/course-7-f-img.jpg'
         },
         {
             title: 'Academic English',
             subject: 'Dave Robbins',
             text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia esse velit sint hic. Fuga, illum quasi!',
             tag: 'LANGUAGES',
-            price: 'FREE'
+            price: 'FREE',
+            img: '/img/course-8-f-img.jpg'
         },
         {
             title: 'Modern Psychology',
             subject: 'Kathryn Webb',
             text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia esse velit sint hic. Fuga, illum quasi!',
             tag: 'BUSINESS',
-            price: '$ 40'
+            price: '$ 40',
+            img: '/img/course-9-f-img.jpg'
         },
     ]
 })
