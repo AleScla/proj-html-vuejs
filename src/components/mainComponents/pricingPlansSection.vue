@@ -12,7 +12,7 @@ export default {
 </script>
 
 <template>
-  <section id="pricing-plans" class="mt-5">
+  <section id="pricing-plans" class="mt-5 py-5">
         <div class="container">
           <div class="row">
             <div class="col-12 text-center mb-5">

@@ -478,5 +478,15 @@ export const store = reactive ({
             tdFour:'included'
         },
         
+    ],
+    // footer
+
+    // footer top
+    sponsors:[
+        '/img/h5-client-5.png',
+        '/img/h5-client-1.png',
+        '/img/h5-client-2.png',
+        '/img/h5-client-1.png',
+        '/img/h5-client-2.png',
     ]
 })
