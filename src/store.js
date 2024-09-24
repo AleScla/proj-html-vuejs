@@ -330,5 +330,70 @@ export const store = reactive ({
         },
     ],
     thumbsActive: 0,
-    
+    // sezione corsi
+    cards:[
+        {
+            title: 'Business English',
+            subject: 'Preston Marshall',
+            text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia esse velit sint hic. Fuga, illum quasi!',
+            tag: 'LANGUAGES',
+            price: '$ 20'
+        },
+        {
+            title: 'Social Computing',
+            subject: 'David Sanders',
+            text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia esse velit sint hic. Fuga, illum quasi!',
+            tag: 'PROGRAMMING',
+            price: 'FREE'
+        },
+        {
+            title: 'Learn Spanish',
+            subject: 'Jennie King',
+            text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia esse velit sint hic. Fuga, illum quasi!',
+            tag: 'LANGUAGES',
+            price: '$ 20'
+        },
+        {
+            title: 'Basic Marketing',
+            subject: 'Edward Bowman',
+            text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia esse velit sint hic. Fuga, illum quasi!',
+            tag: 'BUSINESS',
+            price: '$ 40'
+        },
+        {
+            title: 'Android Developer',
+            subject: 'David Sanders',
+            text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia esse velit sint hic. Fuga, illum quasi!',
+            tag: 'PROGRAMMING',
+            price: 'FREE'
+        },
+        {
+            title: 'Web Designing',
+            subject: 'Jennifer Powell',
+            text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia esse velit sint hic. Fuga, illum quasi!',
+            tag: 'PROGRAMMING',
+            price: 'FREE'
+        },
+        {
+            title: 'Financial Modeling',
+            subject: 'Edward Bowman',
+            text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia esse velit sint hic. Fuga, illum quasi!',
+            tag: 'BUSINESS',
+            price: '$ 20'
+        },
+        {
+            title: 'Academic English',
+            subject: 'Dave Robbins',
+            text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia esse velit sint hic. Fuga, illum quasi!',
+            tag: 'LANGUAGES',
+            price: 'FREE'
+        },
+        {
+            title: 'Modern Psychology',
+            subject: 'Kathryn Webb',
+            text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia esse velit sint hic. Fuga, illum quasi!',
+            tag: 'BUSINESS',
+            price: '$ 40'
+        },
+    ]
 })

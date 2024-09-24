@@ -10,7 +10,9 @@
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
+    "@splidejs/vue-splide": "^0.6.12",
     "bootstrap": "^5.3.3",
+    "swiper": "^11.1.14",
     "vue": "^3.4.37"
   },
   "devDependencies": {
