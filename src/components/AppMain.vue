@@ -4,6 +4,7 @@ import boxSection from './mainComponents/boxSection.vue';
 import homeTutoringSection from './mainComponents/homeTutoringSection.vue';
 import testimonialCarousel from './mainComponents/testimonialCarousel.vue';
 import MoreInfoSection from './mainComponents/MoreInfoSection.vue';
+import onlineCourses from './mainComponents/onlineCoursesSection.vue';
 
 
 export default {
@@ -16,7 +17,8 @@ export default {
     boxSection,
     homeTutoringSection,
     testimonialCarousel,
-    MoreInfoSection
+    MoreInfoSection,
+    onlineCourses,
   },
 
 }
@@ -29,6 +31,7 @@ export default {
       <homeTutoringSection/>
       <testimonialCarousel/>
       <MoreInfoSection/>
+      <onlineCourses/>
     </main>
 
 </template>

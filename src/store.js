@@ -330,4 +330,5 @@ export const store = reactive ({
         },
     ],
     thumbsActive: 0,
+    
 })

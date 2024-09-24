@@ -16,30 +16,21 @@ export default {
         <div class="container  my-5">
           <div class="row">
             <div class="col-4">
-              <div v-for="thumb, index in store.thumbs" :key="index" class="thumb fs-5">
+              <div @click="store.thumbsActive = index" v-for="thumb, index in store.thumbs" :key="index" class="thumb fs-5" :class="{ 'activeThumb': store.thumbsActive == index }">
                 {{ thumb.thumbTitle }}
               </div>
             </div>
             <!-- da gestire con un v-for e mettere in d-none in base all'index -->
             <div class="col-8">
-              <h3 class="px-2"> TITLE</h3>
-              <p class="fs-5 px-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga reiciendis dolor ut! Autem ipsum dolorum culpa iste sapiente atque maxime.</p>
+              <h3 class="px-2"> {{ store.thumbs[store.thumbsActive].thumbText[0].hdr }}</h3>
+              <p class="fs-5 px-2">{{ store.thumbs[store.thumbsActive].thumbText[0].text }}</p>
               <ul class="fa-ul py-5">
-                <li class="py-2 "><span class="fa-li text-primary"><i class="fa-solid fa-check fa-xl"></i></span>
-                  <p class="fs-5">List icons can</p>
-                </li>
-                <li class="py-2 "><span class="fa-li text-primary"><i class="fa-solid fa-check fa-xl"></i></span>
-                  <p class="fs-5">List icons can</p>
-                </li>
-                <li class="py-2 "><span class="fa-li text-primary"><i class="fa-solid fa-check fa-xl"></i></span>
-                  <p class="fs-5">List icons can</p>
-                </li>
-                <li class="py-2 "><span class="fa-li text-primary"><i class="fa-solid fa-check fa-xl"></i></span>
-                  <p class="fs-5">List icons can</p>
+                <li v-for="listItem in store.thumbs[store.thumbsActive].thumbText[0].list" class="py-2 "><span class="fa-li text-primary"><i class="fa-solid fa-check fa-xl"></i></span>
+                  <p class="fs-5">{{listItem}}</p>
                 </li>
               </ul>
               <div class="icon-container">
-                <img src="/img/h12-tabs-icon-1.png" >
+                <img :src="store.thumbs[store.thumbsActive].img" >
               </div>
             </div>
           </div>
@@ -50,6 +41,7 @@ export default {
 <style lang="scss" scoped>
 @use '/src/assets/scss/partials/variables.scss' as *;
 #more-info{
+  padding: 60px 0;
   .container{
     height:500px;
     .row{
@@ -89,4 +81,9 @@ export default {
     }
   }
 }
+
+.col-4 > .thumb.activeThumb{
+  border-left:8px solid #40C4FF !important;
+  color:#40C4FF !important;
+} 
 </style>
