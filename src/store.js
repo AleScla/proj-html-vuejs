@@ -177,7 +177,6 @@ export const store = reactive ({
             phrase: 'Lorem Ipsn gravida nibh vel velit acutor aliquetnean sollicitudin, lorem quis bibendum auci elit consequat Ipsutis sem nibh id elited odio sit amet nibcursus a sit amet mauris',
         },
     ],   
-
     // main
     // sezione box competenze acquisibili
     boxes:[
@@ -488,5 +487,33 @@ export const store = reactive ({
         '/img/h5-client-2.png',
         '/img/h5-client-1.png',
         '/img/h5-client-2.png',
+    ],
+    // footer bottom
+    iAcademy:[
+        '/img/logo-light.png',
+        'Providing Life Changing Experiences Through Education. Class That Fit Your Busy Life. Closer to Home',
+        '1-677-124-444227',
+        'Mon - Sat 8.00 - 18.00'
+    ],
+    courses:[
+        {
+            context:'Business English',
+            teacher:'Preston Marshall',
+        },
+        {
+            context:'Social Computing',
+            teacher:'David Sanders',
+        },
+        {
+            context:'Learn Spanish',
+            teacher:'Jennie King',
+        },
+    ],
+    support:[
+        'User dashboard',
+        'Contact Us',
+        'FAQ',
+        'Course Offer',
+        'Events'
     ]
 })

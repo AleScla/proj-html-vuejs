@@ -1,6 +1,7 @@
 <script>
 import {store} from '../store.js';
 import footerTop from './footerComponents/footerTop.vue';
+import footerBottom from './footerComponents/footerBottom.vue';
 export default {
   data() {
     return { 
@@ -9,6 +10,7 @@ export default {
   },
   components: {
     footerTop,
+    footerBottom,
   },
 
 }
@@ -17,6 +19,7 @@ export default {
 <template>
     <footer>
       <footerTop/>
+      <footerBottom/>
     </footer>
 </template>
 
